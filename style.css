@@ -1,12 +1,72 @@
+body{
+    background-color: #0a714e;
+    border-radius: 50%;
+}
+
+
 #content{
-	
+    background-color: #fdffea;
+    border-radius: 20px;
+    padding: center;
+    margin: auto;
+    
 }
-#imageright{
-	
+
+
+#imageright img{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
+
+#imageright {
+	margin-left: 30px;
+    width: 300px;
+    float: right;
+    border-radius: 20px;
+    border: 2px solid #0a714e;
+    background-color: #e1d0b7;    
+}
+
+#imageleft img{
+    width: 360px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 #imageleft{
-	
+    border-radius: 20px;
+    border: 3px solid #0a714e;
+    float: left;
+    background-color: #e1d0b7;
 }
+
 .kepszoveg{
-	
+	font-weight: bold;
+    font-family: italic;
+    color: forestgreen;
+    text-align: center;
+    margin: 3px;
+}
+
+h1, h2{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+
+p, ul, ol{
+    text-align: justify;
+}
+
+a, a:visited{
+    color: blue;
+    
+}
+
+a:hover{
+    color:  red;
+}
+
+a{
+    text-decoration: none;
 }
